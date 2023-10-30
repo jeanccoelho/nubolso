@@ -5,6 +5,11 @@
   "author": "Jean Carlos Coelho",
   "license": "MIT",
   "dependencies": {
-    "socket.io": "^4.7.2"
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "morgan": "^1.10.0",
+    "ws": "^7.5.3"
   }
 }
