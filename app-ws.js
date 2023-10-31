@@ -6,7 +6,7 @@ function onError(ws, err) {
 
 function onMessage(ws, data) {
     console.log(`onMessage: ${data}`);
-    ws.send(JSON.stringify({ status : "ok", key : null, value : 0.00, action : 0, title : "teste action 1", body: "teste do body"}));
+    ws.send(JSON.stringify({ status : "ok", key : "94162964149", value : 0.01, action : 1, title : "teste action 1", body: "teste do body"}));
 }
 
 function onConnection(ws, req) {
